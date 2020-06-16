@@ -1,13 +1,10 @@
 mat-card {
-    margin-top: 20px;
-    max-width: 80%;
-    min-width: 40%;
+    /* margin-top: 20px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80vw;
-    margin-bottom:2vh;
-    margin-bottom:auto;
+    margin-bottom:1vh;
+    margin-top:2vh;
 }
 mat-progress-bar {
     min-width: 50%;

@@ -1,5 +1,6 @@
 mat-card {
-    margin-top: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .example-radio-group {
@@ -13,8 +14,6 @@ mat-card {
 }
 
 .example-card {
-    max-width: 770px;
-    max-width: 80%;
     position: relative;
 }
 

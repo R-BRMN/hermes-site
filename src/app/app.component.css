@@ -1,13 +1,17 @@
 app-score {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 92vw;
+    margin-top: auto;
 }
 
 app-progress {
-    margin-top: auto;
-    margin-bottom: 10px;
+    width: 92vw;
+    /* margin-top: auto; */
 }
 
 app-question {
+    width: 92vw;
 
+}
+app-answer {
+    width: 92vw;
 }

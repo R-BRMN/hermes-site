@@ -1,9 +1,9 @@
 mat-card {
-    position: relative;
-    width: 130px;
-    width: 80vw;
-    margin-top: 2vh;
+    /* position: relative; */
+    /* width: 130px; */
     height: fit-content;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
 }
 
 #stat2, #stat3 {
