@@ -6,6 +6,8 @@ mat-card {
     justify-content: space-around;
     align-items: center;
     width: 80vw;
+    margin-bottom:2vh;
+    margin-bottom:auto;
 }
 mat-progress-bar {
     min-width: 50%;

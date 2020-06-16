@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { padding-top:100px; background-color: royalblue; margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; text-align: -webkit-center;}
+body {
+     background-color: royalblue;
+     margin: 0;
+     font-family: Roboto, "Helvetica Neue", sans-serif;
+     text-align: -webkit-center;}
+app-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+}

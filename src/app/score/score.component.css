@@ -1,6 +1,9 @@
 mat-card {
     position: relative;
     width: 130px;
+    width: 80vw;
+    margin-top: 2vh;
+    height: fit-content;
 }
 
 #stat2, #stat3 {
@@ -22,4 +25,10 @@ h6 {
 }
 h1 {
     margin-bottom: 2px;
+}
+h2 {
+    margin-bottom: 0px;
+}
+h5 {
+    margin: 0px;
 }

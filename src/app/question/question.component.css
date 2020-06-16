@@ -1,3 +1,7 @@
+mat-card {
+    margin-top: auto;
+}
+
 .example-radio-group {
     display: flex;
     flex-direction: column;
@@ -33,8 +37,6 @@ mat-button-toggle {
     background-color: indigo;
 }
 
-.answer {
-}
 .question {
     text-align: -webkit-left;
     overflow: auto;
