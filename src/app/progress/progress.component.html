@@ -1,5 +1,5 @@
 <mat-card>
     <button mat-button id="prev" (click)="this.prevQuestion()"><h3>prev</h3></button>
-    <mat-progress-bar mode="determinate" value="{{this.total_answered / this.total_questions * 100}}"></mat-progress-bar>
+    <mat-progress-bar mode="determinate" value="{{answered_questions / total_questions * 100}}"></mat-progress-bar>
     <button mat-button id="next" (click)="this.nextQuestion()"><h3>next</h3></button>
 </mat-card>
