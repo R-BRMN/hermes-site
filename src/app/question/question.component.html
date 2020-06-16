@@ -7,7 +7,7 @@
                                 (click)="userChoice(answer)"
                                 [ngClass]="{
                                     'correct': answer===correct_answer && choice != '',
-                                    'incorrect': answer===choice && choice != ''}">
+                                    'incorrect': answer===choice && choice != '' && choice!=correct_answer}">
                 <span class="answer">{{answer}}</span>
             </mat-button-toggle>
         </mat-button-toggle-group>
