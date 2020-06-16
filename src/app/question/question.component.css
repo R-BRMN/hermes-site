@@ -18,6 +18,13 @@ mat-card {
     position: relative;
 }
 
+.correct {
+    background-color: #49AA19;
+}
+.incorrect {
+    background-color: #A61D24;
+}
+
 mat-button-toggle-group {
     width: -webkit-fill-available;
 }

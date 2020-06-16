@@ -4,7 +4,10 @@
             {{question_string}}</h3>
         <mat-button-toggle-group vertical>
             <mat-button-toggle *ngFor="let answer of answers"
-                                (click)="userChoice(answer)">
+                                (click)="userChoice(answer)"
+                                [ngClass]="{
+                                    'correct': answer===correct_answer && choice != '',
+                                    'incorrect': answer===choice && choice != ''}">
                 <span class="answer">{{answer}}</span>
             </mat-button-toggle>
         </mat-button-toggle-group>

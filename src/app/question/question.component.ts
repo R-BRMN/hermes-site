@@ -10,7 +10,7 @@ import { QuizService } from '../quiz.service';
 export class QuestionComponent implements OnInit {
 
   private subscription: Subscription;
-  private correct_answer: string;
+  public correct_answer: string;
   public qid: number;
   public question_string: string;
   public answers: string [];
