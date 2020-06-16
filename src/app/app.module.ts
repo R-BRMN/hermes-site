@@ -16,6 +16,8 @@ import { ScoreComponent } from './score/score.component';
 import { AnswerComponent } from './answer/answer.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatDividerModule,
     MatExpansionModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
