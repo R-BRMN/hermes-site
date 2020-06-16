@@ -1,9 +1,11 @@
 mat-card {
     margin-top: 20px;
-    width: 770px;
+    max-width: 770px;
+    max-width: 80%
 }
 mat-progress-bar {
-    width: 600px;
+    max-width: 600px;
+    width: 50%;
     display: inline-block;
 }
 button {
@@ -14,7 +16,9 @@ h3 {
 }
 #next {
     margin-left:10px;
+    margin-right:10px;
 }
 #prev {
     margin-right:10px;
+    margin-left:10px;
 }
