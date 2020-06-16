@@ -1,0 +1,25 @@
+mat-card {
+    position: relative;
+    width: 130px;
+}
+
+#stat2, #stat3 {
+    position: absolute;
+    bottom: 0px;
+}
+#stat2 {
+    left: 0px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+#stat3 {
+    right: 0px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+h6 {
+    margin: 1px;
+}
+h1 {
+    margin-bottom: 2px;
+}

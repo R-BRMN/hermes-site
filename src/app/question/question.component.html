@@ -1,0 +1,15 @@
+    <mat-card class="example-card">
+        <h3 class="question">
+            <label class="qid">#{{qid}}</label>
+            {{question_string}}</h3>
+        <mat-button-toggle-group vertical>
+            <mat-button-toggle *ngFor="let answer of answers"
+                                (click)="userChoice(answer)">
+                <span class="answer">{{answer}}</span>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+        <div *ngIf="answered == true">
+            <br>
+            <app-answer *ngIf="answered == true"></app-answer>
+        </div>
+    </mat-card>

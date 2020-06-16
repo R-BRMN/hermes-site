@@ -1,0 +1,50 @@
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.example-radio-button {
+    margin: 5px;
+}
+
+.example-card {
+    max-width: 770px;
+    position: relative;
+}
+
+mat-button-toggle-group {
+    width: -webkit-fill-available;
+}
+mat-button-toggle {
+    text-align-last: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.badge {
+    background-color: gray;
+    width: 35px;
+    position: absolute;
+}
+
+.selected {
+    background-color: indigo;
+}
+
+.answer {
+}
+.question {
+    text-align: -webkit-left;
+    overflow: auto;
+}
+
+.qid {
+    position: absolute;
+    overflow: auto;
+    right: 0px;
+    top: 0px;
+    font-size:12px;
+    color: grey;
+    padding: 5px 5px 0px 0px;
+}
