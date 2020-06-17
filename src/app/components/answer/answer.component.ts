@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { QuizService } from '../quiz.service';
+import { QuizService } from '../../quiz.service';
 
 @Component({
   selector: 'app-answer',

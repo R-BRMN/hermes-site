@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { QuizService } from '../quiz.service';
+import { QuizService } from '../../quiz.service';
 import { Subscription } from 'rxjs';
-import { Question } from '../question';
+import { Question } from '../../question';
 
 @Component({
   selector: 'app-score',
