@@ -5,6 +5,14 @@ mat-card {
     align-items: center;
     margin-bottom:1vh;
     margin-top:2vh;
+    -webkit-animation: fadein 2s;
+    animation: fadein 1s;
+
+}
+
+@keyframes fadein {
+    0% { opacity: 0;}
+    100%  { opacity: 1;}
 }
 mat-progress-bar {
     min-width: 50%;

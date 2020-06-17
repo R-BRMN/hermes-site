@@ -2,7 +2,8 @@ import { Injectable, OnInit } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { Question } from './question';
 import { ObserversModule } from '@angular/cdk/observers';
-import { QUESTIONS } from './questions'
+// import { QUESTIONS } from './questions'
+import   QUESTIONS  from './questionss.json'
 
 @Injectable({
   providedIn: 'root'

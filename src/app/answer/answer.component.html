@@ -1,4 +1,4 @@
-<mat-card *ngIf="answered == true">
+<mat-card [ngClass]="{'correct-answer': result==='Correct', 'incorrect-answer': result==='Incorrect'}" *ngIf="answered == true">
 <h1>{{result}}</h1>
 <p>{{explenation}}</p>
 </mat-card>
