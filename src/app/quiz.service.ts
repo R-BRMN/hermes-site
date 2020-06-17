@@ -2,6 +2,7 @@ import { Injectable, OnInit } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { Question } from './question';
 import { ObserversModule } from '@angular/cdk/observers';
+import { QUESTIONS } from './questions'
 
 @Injectable({
   providedIn: 'root'
@@ -14,36 +15,37 @@ export class QuizService {
   private correct_answers: number;
   private answered_questions: number;
   private score: number;
-  private questions: Question []=[
-  {
-    question_string: "How much is 1+1?",
-    answers: ["4","2","6","7"],
-    correct_answer: "2",
-    explenation: "Simple addition",
-    qid: 55,
-    choice: "",
-    result: ""
-  },
-  {
-    question_string: "How many days in a year?",
-    answers: ["365","100","1000","1"],
-    correct_answer: "365",
-    explenation: "Takes a while to go around the sun",
-    qid: 51,
-    choice: "",
-    result: ""
-  },
-  {
-    question_string: "How old are you?",
-    answers: ["100","fdijtmxzfdlfa;as","2","not born yet"],
-    correct_answer: "100",
-    explenation: "You should know this",
-    qid: 71,
-    choice: "",
-    result: ""
-  }
+  private questions: Question []= QUESTIONS;
+//   [
+//   {
+//     question_string: "What is 1+1?",
+//     answers: ["4","2","6","7"],
+//     correct_answer: "2",
+//     explenation: "Simple addition",
+//     qid: 55,
+//     choice: "",
+//     result: ""
+//   },
+//   {
+//     question_string: "How many days in a year?",
+//     answers: ["365","100","1000","1"],
+//     correct_answer: "365",
+//     explenation: "Takes a while to go around the sun",
+//     qid: 51,
+//     choice: "",
+//     result: ""
+//   },
+//   {
+//     question_string: "How old are you?",
+//     answers: ["100","fdijtmxzfdlfa;as","2","not born yet"],
+//     correct_answer: "100",
+//     explenation: "You should know this",
+//     qid: 71,
+//     choice: "",
+//     result: ""
+//   }
 
-];
+// ];
 constructor() {
  this.total_questions = this.questions.length;
  this.current_question = 0;
