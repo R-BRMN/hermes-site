@@ -24,6 +24,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MenuComponent } from './components/menu/menu.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +36,13 @@ import { MenuComponent } from './components/menu/menu.component';
     ScoreComponent,
     AnswerComponent,
     QuizCreatorComponent,
-    MenuComponent
+    MenuComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatIconModule,
     BrowserAnimationsModule,
     MatRadioModule,
     MatButtonToggleModule,
@@ -50,6 +55,7 @@ import { MenuComponent } from './components/menu/menu.component';
     MatListModule,
     MatCheckboxModule,
     MatSidenavModule,
+    MatToolbarModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

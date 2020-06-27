@@ -19,6 +19,10 @@ app-quiz-creator {
     width: 92vw;
     margin-top: 10px;
 }
+
+app-toolbar {
+    width: 100vw;
+}
 mat-sidenav-content {
     /* width: auto; */
     height: inherit;
