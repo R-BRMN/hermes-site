@@ -7,6 +7,7 @@ mat-card {
     margin-top:2vh;
     -webkit-animation: fadein 2s;
     animation: fadein 1s;
+    background-color: white;
 
 }
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { QuizService } from '../../quiz.service';
+import { QuestionService } from '../../question.service';
 
 @Component({
   selector: 'app-answer',
@@ -14,7 +14,7 @@ export class AnswerComponent implements OnInit {
   public result: string;
   public answered: boolean;
 
-  constructor(private quizService: QuizService) { 
+  constructor(private quizService: QuestionService) { 
     this.subscription = this.quizService.onMessage().subscribe(message => {
       if (message.text === "load_question") {
         this.explenation = message.question.explenation;

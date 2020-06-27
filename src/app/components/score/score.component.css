@@ -6,6 +6,7 @@ mat-card {
     margin-bottom: 2vh;
     -webkit-animation: fadein 2s;
     animation: fadein 1s;
+    background-color: white;
 
 }
 @keyframes fadein {

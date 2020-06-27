@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { QuizService } from '../../quiz.service';
+import { QuestionService } from '../../question.service';
 import { Question } from '../../question';
 
 
@@ -16,7 +16,7 @@ export class ProgressComponent implements OnInit {
   public answered_questions: number;
   public total_questions;
 
-  constructor(private quizService: QuizService) {
+  constructor(private quizService: QuestionService) {
     this.subscription = this.quizService.onMessage().subscribe(message => {
       if (message.text === "new_stats") {
         this.answered_questions = message.stats.answered_questions;

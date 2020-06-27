@@ -8,7 +8,7 @@ import   QUESTIONS  from './questionss.json'
 @Injectable({
   providedIn: 'root'
 })
-export class QuizService {
+export class QuestionService {
 
   private total_questions: number;
   private subject = new Subject<any>();

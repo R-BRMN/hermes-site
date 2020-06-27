@@ -2,30 +2,34 @@ mat-card {
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
-
     -webkit-animation: fadein 2s;
     animation: fadein 1s;
-
 }
 @keyframes fadein {
     0% { opacity: 0;}
     100%  { opacity: 1;}
 }
 @keyframes fadefromcorrect {
-    0% { background-color: #49AA19; }
-    100% { background-color: white; }
+    0% { background-color: #43A163; }
+    100% { background-color:white; }
+    0% {color: black }
+    100% { color: #43A163 }
 }
 @keyframes fadefromincorrect {
-    0% { background-color: #FA4934; }
+    0% { background-color: #EE4B23; }
     100% { background-color: white; }
+    0% { color: black; }
+    100% { color: #EE4B23; }
 }
 
 
 .correct-answer {
-    -webkit-animation: fadefromcorrect 2s ;
-    animation: fadefromcorrect 2s;
+    /* -webkit-animation: fadefromcorrect 2s ;
+    animation: fadefromcorrect 2s; */
+    color: #43A163;
 }
 .incorrect-answer {
-    -webkit-animation: fadefromincorrect 2s ;
-    animation: fadefromincorrect 2s;
+    /* -webkit-animation: fadefromincorrect 2s ;
+    animation: fadefromincorrect 2s; */
+    color: #EE4B23;
 }

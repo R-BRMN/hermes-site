@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { QuizService } from '../../quiz.service';
+import { QuestionService } from '../../question.service';
 import { Subscription } from 'rxjs';
 import { Question } from '../../question';
 
@@ -18,7 +18,7 @@ export class ScoreComponent implements OnInit {
   public total_questions;
   public qid;
 
-  constructor(private quizService: QuizService) { 
+  constructor(private quizService: QuestionService) { 
     this.subscription = this.quizService.onMessage().subscribe(message => {
       if (message.text === "new_stats") {
         this.total_questions = message.stats.total_questions;
