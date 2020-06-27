@@ -3,6 +3,7 @@ mat-card {
     margin-bottom: 1vh;
     -webkit-animation: fadein 2s;
     animation: fadein 1s;
+    background-color: white;
 
 }
 @keyframes fadein {
@@ -25,10 +26,10 @@ mat-card {
 }
 
 .correct {
-    background-color: #4baf19d3;
+    background-color: #43A163;
 }
 .incorrect {
-    background-color: rgba(230, 89, 73, 0.856);
+    background-color: #EE4B23;
 }
 
 mat-button-toggle-group {

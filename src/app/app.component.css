@@ -15,3 +15,23 @@ app-question {
 app-answer {
     width: 92vw;
 }
+app-quiz-creator {
+    width: 92vw;
+    margin-top: 10px;
+}
+mat-sidenav-content {
+    /* width: auto; */
+    height: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:  #F7F6F9;
+    display: flex;
+}
+mat-sidenav-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}

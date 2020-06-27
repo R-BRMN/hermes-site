@@ -18,6 +18,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { QuizCreatorComponent } from './components/quiz-creator/quiz-creator.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatListModule } from '@angular/material/list';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,9 @@ import { environment } from '../environments/environment';
     QuestionComponent,
     ProgressComponent,
     ScoreComponent,
-    AnswerComponent
+    AnswerComponent,
+    QuizCreatorComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +46,10 @@ import { environment } from '../environments/environment';
     MatExpansionModule,
     MatButtonModule,
     MatProgressBarModule,
+    MatTabsModule,
+    MatListModule,
+    MatCheckboxModule,
+    MatSidenavModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
