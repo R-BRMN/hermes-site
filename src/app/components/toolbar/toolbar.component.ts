@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { QuestionService } from 'src/app/question.service';
+import { Subscription } from 'rxjs';
+import { Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
@@ -7,7 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  constructor() { }
+  private subscription: Subscription;
+  public title : String;
+  @Input() sidenav;
+
+  constructor(private quizService: QuestionService) { 
+    this.subscription = this.quizService.onMessage().subscribe(message => {
+      this.title = message.stats.title
+    });
+    this.quizService.pushStats();
+    console.log(this.sidenav);
+    }
+
+  @Output() navToggleEvent = new EventEmitter<string>();
+
+  public toggle() {
+    this.sidenav.toggle();
+  }
 
   ngOnInit(): void {
   }

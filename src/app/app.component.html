@@ -1,7 +1,7 @@
-<app-toolbar>
+<app-toolbar [sidenav]="sidenav">
 </app-toolbar>
 <mat-sidenav-container>
-    <mat-sidenav  mode="over" opened>
+    <mat-sidenav #sidenav mode="over" opened>
         <app-menu></app-menu>
     </mat-sidenav>
     <mat-sidenav-content>

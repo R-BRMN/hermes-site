@@ -22,9 +22,9 @@ export class ScoreComponent implements OnInit {
     this.subscription = this.quizService.onMessage().subscribe(message => {
       if (message.text === "new_stats") {
         this.total_questions = message.stats.total_questions;
-        this.current_question = message.stats.current_question,
-        this.correct_answers = message.stats.correct_answers,
-        this.score = message.stats.score
+        this.current_question = message.stats.current_question;
+        this.correct_answers = message.stats.correct_answers;
+        this.score = message.stats.score;
       }
       if (message.text === "load_question") {
         this.qid = message.question.qid;

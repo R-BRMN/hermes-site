@@ -16,37 +16,9 @@ export class QuestionService {
   private correct_answers: number;
   private answered_questions: number;
   private score: number;
-  private questions: Question []= QUESTIONS;
-//   [
-//   {
-//     question_string: "What is 1+1?",
-//     answers: ["4","2","6","7"],
-//     correct_answer: "2",
-//     explenation: "Simple addition",
-//     qid: 55,
-//     choice: "",
-//     result: ""
-//   },
-//   {
-//     question_string: "How many days in a year?",
-//     answers: ["365","100","1000","1"],
-//     correct_answer: "365",
-//     explenation: "Takes a while to go around the sun",
-//     qid: 51,
-//     choice: "",
-//     result: ""
-//   },
-//   {
-//     question_string: "How old are you?",
-//     answers: ["100","fdijtmxzfdlfa;as","2","not born yet"],
-//     correct_answer: "100",
-//     explenation: "You should know this",
-//     qid: 71,
-//     choice: "",
-//     result: ""
-//   }
+  private title: String = QUESTIONS.title;
+  private questions: Question []= QUESTIONS.questions;
 
-// ];
 constructor() {
  this.total_questions = this.questions.length;
  this.current_question = 0;
@@ -122,7 +94,8 @@ constructor() {
                         current_question: this.current_question,
                         correct_answers: this.correct_answers,
                         answered_questions: this.answered_questions,
-                        score: this.score
+                        score: this.score,
+                        title: this.title
                        }})
   }
 
