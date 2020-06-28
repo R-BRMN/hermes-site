@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593267303885,
+  "timestamp": 1593332164016,
   "index": "/hermes-site/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/hermes-site/favicon.ico",
         "/hermes-site/index.html",
-        "/hermes-site/main-es2015.7a88d7366e228b620900.js",
-        "/hermes-site/main-es5.7a88d7366e228b620900.js",
+        "/hermes-site/main-es2015.c4c045357946cb9d6e20.js",
+        "/hermes-site/main-es5.c4c045357946cb9d6e20.js",
         "/hermes-site/manifest.webmanifest",
         "/hermes-site/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/hermes-site/polyfills-es5.9e286f6d9247438cbb02.js",
@@ -49,9 +49,9 @@
     "/hermes-site/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/hermes-site/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/hermes-site/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/hermes-site/index.html": "bc71fe696de0bf8e9f44c05fd42b11f4255426a3",
-    "/hermes-site/main-es2015.7a88d7366e228b620900.js": "768dba2402a1e6a8508f14a6bac73ae7e17994de",
-    "/hermes-site/main-es5.7a88d7366e228b620900.js": "04ee79eda2ae5610267bfc352acdd4bf75ce3b19",
+    "/hermes-site/index.html": "4ee78f9278094106532347d774ef687cea96041f",
+    "/hermes-site/main-es2015.c4c045357946cb9d6e20.js": "2ca8b90dc98b1f73f81a6ccc3df7f80e0d1b7f53",
+    "/hermes-site/main-es5.c4c045357946cb9d6e20.js": "60413d9630ddfb9e2b8d9aba057528953792382b",
     "/hermes-site/manifest.webmanifest": "817110e0747f7a9a1e8f6889431dff005be8a6e1",
     "/hermes-site/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/hermes-site/polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
