@@ -1,3 +1,10 @@
 mat-toolbar {
     background-color:  #F7F6F9;
+    place-content: center;
+}
+
+
+button {
+    position: absolute;
+    left: 10px;
 }

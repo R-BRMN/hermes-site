@@ -11,8 +11,8 @@ import { Input, Output, EventEmitter } from '@angular/core';
 export class ToolbarComponent implements OnInit {
 
   private subscription: Subscription;
-  public title : String;
   @Input() sidenav;
+  @Input() title;
 
   constructor(private quizService: QuestionService) { 
     this.subscription = this.quizService.onMessage().subscribe(message => {

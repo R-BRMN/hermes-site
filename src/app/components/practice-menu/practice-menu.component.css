@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+mat-card {
+}
+
+
+::ng-deep.mat-list-item-content {
+    place-content: center;
+}
