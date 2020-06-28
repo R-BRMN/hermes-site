@@ -1,0 +1,32 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+app-score {
+    width: 92vw;
+    margin-top: auto;
+}
+
+app-progress {
+    width: 92vw;
+    /* margin-top: auto; */
+}
+
+app-question {
+    width: 92vw;
+
+}
+app-answer {
+    width: 92vw;
+}
+app-quiz-creator {
+    width: 92vw;
+    margin-top: 10px;
+}
+
+app-toolbar {
+    width: 100vw;
+}

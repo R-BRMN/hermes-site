@@ -1,13 +1,10 @@
 <app-toolbar [sidenav]="sidenav">
 </app-toolbar>
 <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="over" opened>
-        <app-menu></app-menu>
+    <mat-sidenav #sidenav mode="over" closed>
+        <app-menu [sidenav]="sidenav"></app-menu>
     </mat-sidenav>
     <mat-sidenav-content>
-<app-progress></app-progress>
-<app-answer></app-answer>
-<app-question></app-question>
-<app-score></app-score>
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>

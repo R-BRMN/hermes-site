@@ -27,6 +27,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { LecturesComponent } from './components/lectures/lectures.component';
+import { PracticeComponent } from './components/practice/practice.component';
+import { StudyPlanComponent } from './components/study-plan/study-plan.component';
+import { LibraryComponent } from './components/library/library.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     AnswerComponent,
     QuizCreatorComponent,
     MenuComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    LecturesComponent,
+    PracticeComponent,
+    StudyPlanComponent,
+    LibraryComponent
   ],
   imports: [
     BrowserModule,
