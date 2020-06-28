@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-tab-group mat-align-tabs="center">
+        <mat-tab label="Source 1">
+            <mat-nav-list>
+            <a mat-list-item *ngFor="let item of [].constructor(8); let i = index;"
+               routerLink="/practice/sourceone/chapter/{{ i+1 }}">
+               Chapter {{i + 1}} - Subject
+            </a> 
+        </mat-nav-list>
+        </mat-tab>
+        <mat-tab label="Source 2">
+            <mat-card>
+                <h1>
+                    Under construction
+                </h1>
+            </mat-card>
+        </mat-tab>
+        <mat-tab label="Source 3">
+            <mat-card>
+                <h1>
+                    Under construction
+                </h1>
+            </mat-card>
+        </mat-tab>
+    </mat-tab-group>
+</mat-card>

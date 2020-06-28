@@ -33,6 +33,8 @@ import { StudyPlanComponent } from './components/study-plan/study-plan.component
 import { LibraryComponent } from './components/library/library.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 import { PracticeMenuComponent } from './components/practice-menu/practice-menu.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
+import { ChapterSelectionComponent } from './components/chapter-selection/chapter-selection.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +51,9 @@ import { PracticeMenuComponent } from './components/practice-menu/practice-menu.
     StudyPlanComponent,
     LibraryComponent,
     PagenotfoundComponent,
-    PracticeMenuComponent
+    PracticeMenuComponent,
+    WelcomeComponent,
+    ChapterSelectionComponent
   ],
   imports: [
     BrowserModule,

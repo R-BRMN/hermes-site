@@ -87,6 +87,10 @@ constructor() {
     this.currentQuestion();
   }
 
+  load_quiz(question_bank: String, quiz_type: String, quiz_id: String) {
+    console.log("loading quiz ", question_bank)
+  }
+
   pushStats() {
     this.subject.next({text: "new_stats",
                        stats: {

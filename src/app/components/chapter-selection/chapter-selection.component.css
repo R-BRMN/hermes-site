@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    padding-top: 2vh;
+}
+
+/* ::ng-deep.mat-list-item-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+} */
